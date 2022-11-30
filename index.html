@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/media-queries.css" />
+    <link rel="stylesheet" href="/css/fonts.css">
+  </head>
+  <body>
+    <h1>Pop Up Search</h1>
+
+    <div id="myOverlay">
+      <span class="closebtn" onclick="closeSearch()">x</span>
+      <div class="overlay-content">
+        <form action="">
+          <input type="search" placeholder="Search" name="search" />
+          <button type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <p>Coded By David Mphande</p>
+    </div>
+
+    <button class="openbtn" onclick="openSearch()">
+      <i class="fa fa-search"></i>
+    </button>
+
+    <div id="coder-details">
+      <div class="details">
+        <h3>Find Me On</h3>
+        <ul>
+          <li>
+            <a href="https://github.com/Heiteinany18" target="_blank"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </li>
+          <li>
+            <a href="https://codepen.io/heiteinany18" target="_blank"
+              ><i class="fab fa-codepen"></i> Codepen</a
+            >
+          </li>
+          <li>
+            <a href="https://web.facebook.com/david.mphande.35/" target="_blank"
+              ><i class="fab fa-facebook"></i> Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/david-mphande-0721ab236/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i> Linkedin</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
